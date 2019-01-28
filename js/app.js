@@ -59,7 +59,7 @@ $(document).ready(function () {
         //this sends an ajax requst to google for the location that the user entered and turns it into lat/lng to push to the array later
         var where = snapshot.val().where;
 
-        var googleURL = "https://maps.googleapis.com/maps/api/geocode/json?address=" + where + "&key=AIzaSyCHGt8eFg_UB3LsbjtWbsjk-7wyBychILQ"
+        var googleURL = "https://maps.googleapis.com/maps/api/geocode/json?address=" + where + "&key=AIzaSyAnASDf4ZxiMWCX8_MEOcOKpGDDNEJCZ5g"
 
         $.get(googleURL).then(function (thing) {
             // "locations" is the array where the lat/lng is being pushed
