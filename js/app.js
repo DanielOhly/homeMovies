@@ -4,15 +4,15 @@ $(document).ready(function () {
     
 
     // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyCe7HEqry2cnAfJli6gk2qJKg6eV_mFIUE",
-        authDomain: "home-movies-d9cd4.firebaseapp.com",
-        databaseURL: "https://home-movies-d9cd4.firebaseio.com",
-        projectId: "home-movies-d9cd4",
-        storageBucket: "home-movies-d9cd4.appspot.com",
-        messagingSenderId: "246177851940"
-    };
-    firebase.initializeApp(config);
+  var config = {
+    apiKey: "AIzaSyBBF766S6q_4st_Kwu7KjX0GUL5WPJsvFQ",
+    authDomain: "homemovies-1aeca.firebaseapp.com",
+    databaseURL: "https://homemovies-1aeca.firebaseio.com",
+    projectId: "homemovies-1aeca",
+    storageBucket: "homemovies-1aeca.appspot.com",
+    messagingSenderId: "105060290496"
+  };
+  firebase.initializeApp(config);
 
     data = firebase.database();
 
